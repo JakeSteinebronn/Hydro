@@ -6,10 +6,10 @@
 "../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 5
 "../../../Engine/Content/BasicShapes/Sphere.uasset" 6
 "../../../../Modding Stuff/New folder/Unreal/Content/BP_GameCharacter.uasset" 7
-"../../../../Modding Stuff/New folder/Unreal/Content/BP_SaveGame.uasset" 8
-"../../../../Modding Stuff/New folder/Unreal/Content/GM_GameMode.uasset" 9
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/S_SpawnStruct.uasset" 10
-"../../../../Modding Stuff/New folder/Unreal/Content/SpawnList.uasset" 11
+"../../../../Modding Stuff/New folder/Unreal/Content/BP_GameInstance.uasset" 8
+"../../../../Modding Stuff/New folder/Unreal/Content/BP_SaveGame.uasset" 9
+"../../../../Modding Stuff/New folder/Unreal/Content/BP_SaveUserData.uasset" 10
+"../../../../Modding Stuff/New folder/Unreal/Content/GM_GameMode.uasset" 11
 "../../../../Modding Stuff/New folder/Unreal/Content/Enums/E_AnvilType.uasset" 12
 "../../../../Modding Stuff/New folder/Unreal/Content/Enums/E_CameraShakes.uasset" 13
 "../../../../Modding Stuff/New folder/Unreal/Content/Enums/E_Crosshairs.uasset" 14
@@ -101,831 +101,925 @@
 "../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_sword_02.uasset" 100
 "../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_Wooden_UI.uasset" 101
 "../../../../Modding Stuff/New folder/Unreal/Content/Materials/Other3DPassThroughThing.uasset" 102
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/material_0.uasset" 103
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_BaseColor.uasset" 104
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_Emissive.uasset" 105
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_Normal.uasset" 106
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_OcclusionRoughnessMetallic.uasset" 107
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_MagnetOnStick.uasset" 108
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_PipeT.uasset" 109
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/Material_001.uasset" 110
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_MagnetOnStick.uasset" 111
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_MapMesh.uasset" 112
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_StoredMagnetOnStick.uasset" 113
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetGun_Fbx_Default_Material_BaseColor.uasset" 114
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetGun_Fbx_Default_Material_Normal.uasset" 115
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetGun_Fbx_Default_Material_OcclusionRoughnessMetallic.uasset" 116
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_MagnetStaff.uasset" 117
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_StoredMagnetStaff.uasset" 118
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/SM_MapMesh.uasset" 119
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/GrinderWheel_BaseColor.uasset" 120
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_GrindingWheel.uasset" 121
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/GrinderWheel.uasset" 122
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Basic_Wall.uasset" 123
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Pillar_50x500.uasset" 124
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_400x300.uasset" 125
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_400x400.uasset" 126
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_500x500.uasset" 127
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 128
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 129
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Collapse01.uasset" 130
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Collapse02.uasset" 131
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Explosion01.uasset" 132
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Explosion02.uasset" 133
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire01.uasset" 134
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire_Sparks01.uasset" 135
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light01.uasset" 136
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light01_Cue.uasset" 137
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light02.uasset" 138
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light02_Cue.uasset" 139
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Smoke01.uasset" 140
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Birds01.uasset" 141
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Music01.uasset" 142
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Wind05.uasset" 143
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Wind06.uasset" 144
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Steam01.uasset" 145
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Explosion_Cue.uasset" 146
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Burst_M.uasset" 147
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Burst.uasset" 148
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 149
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 150
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 151
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 152
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 153
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 154
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 155
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 156
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Explosion.uasset" 157
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 158
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 159
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 160
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Bush_D.uasset" 161
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Bush_N.uasset" 162
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Bush.uasset" 163
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Bush.uasset" 164
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Chair_M.uasset" 165
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Chair_N.uasset" 166
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Chair.uasset" 167
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Couch.uasset" 168
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Glass.uasset" 169
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Door_M.uasset" 170
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Door_N.uasset" 171
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Door.uasset" 172
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Door.uasset" 173
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 174
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 175
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 176
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 177
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 178
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 179
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_RockMesh_M.uasset" 180
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_RockMesh_N.uasset" 181
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Rock.uasset" 182
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Rock.uasset" 183
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Shelf_M.uasset" 184
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Shelf_N.uasset" 185
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Shelf.uasset" 186
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Shelf.uasset" 187
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Basic_Floor.uasset" 188
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Stairs.uasset" 189
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Cone.uasset" 190
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 191
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 192
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Pipe.uasset" 193
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 194
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 195
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Plane.uasset" 196
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Torus.uasset" 197
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Trim.uasset" 198
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 199
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 200
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 201
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Tube.uasset" 202
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 203
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 204
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 205
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/S_PipeStruct.uasset" 206
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildItem.uasset" 207
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildLighting.uasset" 208
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildStorage.uasset" 209
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildWall.uasset" 210
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedCoins.uasset" 211
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedConveyer.uasset" 212
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedConveyerSplitter.uasset" 213
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedDirt.uasset" 214
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedLantern.uasset" 215
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedPlant.uasset" 216
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedRelic.uasset" 217
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedResource.uasset" 218
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedTool.uasset" 219
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedToolUses.uasset" 220
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedVehicle.uasset" 221
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedWaterDurabilityItem.uasset" 222
-"../../../../Modding Stuff/New folder/Unreal/Content/Tables/DT_SpawnTable.uasset" 223
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Conveyer_lambert1_BaseColor.uasset" 224
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Conveyer_lambert1_Normal.uasset" 225
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Conveyer_lambert1_OcclusionRoughnessMetallic.uasset" 226
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Intake_lambert1_BaseColor.uasset" 227
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Intake_lambert1_Normal.uasset" 228
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Intake_lambert1_OcclusionRoughnessMetallic.uasset" 229
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetOnAStick_lambert1_BaseColor.uasset" 230
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetOnAStick_lambert1_OcclusionRoughnessMetallic.uasset" 231
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeCork_DefaultMaterial_BaseColor.uasset" 232
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeCork_DefaultMaterial_Normal.uasset" 233
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeCork_DefaultMaterial_OcclusionRoughnessMetallic.uasset" 234
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeFilter_lambert1_BaseColor.uasset" 235
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeFilter_lambert1_Normal.uasset" 236
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeFilter_lambert1_OcclusionRoughnessMetallic.uasset" 237
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeT_lambert1_BaseColor.uasset" 238
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeT_lambert1_Normal.uasset" 239
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeT_lambert1_OcclusionRoughnessMetallic.uasset" 240
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValueWheel_MAT_PolygonSciFiSpace_01_A_BaseColor.uasset" 241
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValueWheel_MAT_PolygonSciFiSpace_01_A_Normal.uasset" 242
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValueWheel_MAT_PolygonSciFiSpace_01_A_OcclusionRoughnessMetallic.uasset" 243
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValve_lambert1_BaseColor.uasset" 244
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValve_lambert1_Normal.uasset" 245
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValve_lambert1_OcclusionRoughnessMetallic.uasset" 246
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PressureReader_DefaultMaterial_BaseColor.uasset" 247
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PressureReader_DefaultMaterial_Normal.uasset" 248
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PressureReader_DefaultMaterial_OcclusionRoughnessMetallic.uasset" 249
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_01_Mat_Dungeon_02_BaseColor.uasset" 250
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_01_Mat_Dungeon_02_Normal.uasset" 251
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_01_Mat_Dungeon_02_OcclusionRoughnessMetallic.uasset" 252
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_02_Mat_Dungeon_03_BaseColor.uasset" 253
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_02_Mat_Dungeon_03_Normal.uasset" 254
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_02_Mat_Dungeon_03_OcclusionRoughnessMetallic.uasset" 255
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_BaseColor.uasset" 256
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_BaseColor2.uasset" 257
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_BaseColor3.uasset" 258
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_Normal.uasset" 259
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_Normal2.uasset" 260
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_Normal3.uasset" 261
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_OcclusionRoughnessMetallic.uasset" 262
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_OcclusionRoughnessMetallic2.uasset" 263
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_OcclusionRoughnessMetallic3.uasset" 264
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipe_M_RigPipe_BaseColor.uasset" 265
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipe_M_RigPipe_Normal.uasset" 266
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipe_M_RigPipe_OcclusionRoughnessMetallic.uasset" 267
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigRotorBottom_SM_PipeStraightSG3_BaseColor.uasset" 268
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigRotorBottom_SM_PipeStraightSG3_Normal.uasset" 269
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigRotorBottom_SM_PipeStraightSG3_OcclusionRoughnessMetallic.uasset" 270
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/T_RigDirtPipeT.uasset" 271
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/T_RigDirtPipeTARM.uasset" 272
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/T_RigDirtPipeTNorm.uasset" 273
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/AlmendraSC-Bold.uasset" 274
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/AlmendraSC-Bold_Font.uasset" 275
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_19.uasset" 276
-"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Player/Button_Press.uasset" 277
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HComboStringBox.uasset" 278
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_obj_02.uasset" 279
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_strip_bg01.uasset" 280
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSlider.uasset" 281
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_checkbox_bg.uasset" 282
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_checkbox_filled.uasset" 283
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HCheckBox.uasset" 284
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/BP_DayNightCycle.uasset" 285
-"../../../../Modding Stuff/New folder/Unreal/Content/Enums/E_ItemType.uasset" 286
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BP_ParentItem.uasset" 287
-"../../../../Modding Stuff/New folder/Unreal/Content/Enums/E_PlacementType.uasset" 288
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuild.uasset" 289
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentWaterItem.uasset" 290
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ParentResource.uasset" 291
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ParentTool.uasset" 292
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Pan.uasset" 293
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_FunnelAngled.uasset" 294
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_FunnelAngled.uasset" 295
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_DeleteTest.uasset" 296
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/BP_ParentStoreItem.uasset" 297
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/BuildCosmetics/BP_StoreDeleteFunnel.uasset" 298
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Vehicles/BP_ParentVehicle.uasset" 299
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 300
-"../../../Engine/Content/BasicShapes/Cube.uasset" 301
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Anvil.uasset" 302
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GrindingWheel.uasset" 303
-"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedLogicItem.uasset" 304
-"../../../../Modding Stuff/New folder/Unreal/Content/F7_Save.uasset" 305
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 306
-"../../../../Modding Stuff/New folder/Unreal/Content/BP_DevCam.uasset" 307
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HKeyBindSelector.uasset" 308
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_17.uasset" 309
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSmallButton1.uasset" 310
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_16.uasset" 311
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSmallButton2.uasset" 312
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_18.uasset" 313
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSmallButton3.uasset" 314
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_Plank_08.uasset" 315
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTabButton.uasset" 316
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_Plank_07.uasset" 317
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTabButton2.uasset" 318
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_Plank_09.uasset" 319
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTabButton3.uasset" 320
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTextBlock.uasset" 321
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTextBox.uasset" 322
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildBed.uasset" 323
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildCarpet.uasset" 324
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildFancyBed.uasset" 325
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildFancyTable.uasset" 326
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_MagnetStaff.uasset" 327
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildFloor.uasset" 328
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeDoorway.uasset" 329
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeFloor.uasset" 330
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeFoundation.uasset" 331
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildWall.uasset" 332
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWall1.uasset" 333
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWall2.uasset" 334
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWallTriangle.uasset" 335
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWallWindow1.uasset" 336
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWallWindow2.uasset" 337
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildPole.uasset" 338
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildRoofFlat.uasset" 339
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildRoofLong.uasset" 340
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildRoofShort.uasset" 341
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildStorage.uasset" 342
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSafe.uasset" 343
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildSeedBag.uasset" 344
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagAfage.uasset" 345
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagEmberSpice.uasset" 346
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagFrostspine.uasset" 347
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagGluuin.uasset" 348
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagGreenCane.uasset" 349
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagHillLavender.uasset" 350
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagLunarLeaf.uasset" 351
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagRegalRye.uasset" 352
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagStreedThorn.uasset" 353
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagWildBower.uasset" 354
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildStairs.uasset" 355
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildTable.uasset" 356
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildWall.uasset" 357
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildWindow.uasset" 358
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentConveyer.uasset" 359
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Conveyer.uasset" 360
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyerSplitter.uasset" 361
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyerVertical.uasset" 362
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyorShredder.uasset" 363
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_DeerTrophy.uasset" 364
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_FishingPot.uasset" 365
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_FishTrophy.uasset" 366
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Funnel.uasset" 367
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Emerald.uasset" 368
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Ruby.uasset" 369
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Sapphire.uasset" 370
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_UncutEmerald.uasset" 371
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_UncutRuby.uasset" 372
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_UncutSapphire.uasset" 373
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_GrinderCase.uasset" 374
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_GrinderWheel.uasset" 375
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GemGrind.uasset" 376
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GoldenHeadStatue.uasset" 377
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentWaterItemDurability.uasset" 378
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GoliathDrill.uasset" 379
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Harvester.uasset" 380
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_IntakePipe.uasset" 381
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildLighting.uasset" 382
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_LightPost.uasset" 383
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeBent.uasset" 384
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeCork.uasset" 385
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeFilter.uasset" 386
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeValve.uasset" 387
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Plinth.uasset" 388
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PressureGaugePipe.uasset" 389
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PressureTankPipe.uasset" 390
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_RamDrill.uasset" 391
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Scales.uasset" 392
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_SmallFurnace.uasset" 393
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/BP_Water.uasset" 394
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_StraightPipe.uasset" 395
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchCorner1.uasset" 396
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchCorner2.uasset" 397
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchFlat.uasset" 398
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchRamp.uasset" 399
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Throne.uasset" 400
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ToolRack.uasset" 401
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_TPipe.uasset" 402
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_WoodBlock.uasset" 403
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Black.uasset" 404
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Blue.uasset" 405
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Green.uasset" 406
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Red.uasset" 407
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 408
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeStraight.uasset" 409
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_ParentLogic.uasset" 410
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeT.uasset" 411
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeAND.uasset" 412
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeBent.uasset" 413
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeBend.uasset" 414
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/X_Pipe_2_Material_BaseColor.uasset" 415
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/X_Pipe_2_Material_Normal.uasset" 416
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/X_Pipe_2_Material_OcclusionRoughnessMetallic.uasset" 417
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_PipeX.uasset" 418
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_PipeX.uasset" 419
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeCross.uasset" 420
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeCrossBridge.uasset" 421
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeDelay.uasset" 422
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ParentToolUses.uasset" 423
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ToolBag.uasset" 424
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeFilter.uasset" 425
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeFilter.uasset" 426
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeGenerator.uasset" 427
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/M_Inlet.uasset" 428
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_Inlet.uasset" 429
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeInlet.uasset" 430
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeInverter.uasset" 431
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeNAND.uasset" 432
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeNOR.uasset" 433
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeOR.uasset" 434
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Crystal.uasset" 435
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ShardBar.uasset" 436
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/M_PressureBody.uasset" 437
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PressureBody.uasset" 438
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/M_PressureTankDoor.uasset" 439
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/M_PressureTankDoorWindow.uasset" 440
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PressureConverterDoor.uasset" 441
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipePressure.uasset" 442
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/M_PressureGaugePipe.uasset" 443
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeReader.uasset" 444
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/6_Pipe_Redux_Material.uasset" 445
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/6_Pipe_Redux_Material__1_.uasset" 446
-"../../../../Modding Stuff/New folder/Unreal/Content/Textures/6_Pipe_Redux_Material__2_.uasset" 447
-"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_PipeSix.uasset" 448
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/SM_PipeSix.uasset" 449
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeSix.uasset" 450
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeSixBridge.uasset" 451
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeStraight.uasset" 452
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeT.uasset" 453
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeValveBody.uasset" 454
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/M_ValveWheel.uasset" 455
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_ValveWheel.uasset" 456
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeValve.uasset" 457
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeXNOR.uasset" 458
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeXOR.uasset" 459
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicParent.uasset" 460
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicArrow.uasset" 461
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicCross.uasset" 462
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicGoblet.uasset" 463
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicSkull.uasset" 464
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicSpyglass.uasset" 465
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicSword.uasset" 466
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ParentCraftedResource.uasset" 467
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Axe.uasset" 468
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Coins.uasset" 469
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Dagger.uasset" 470
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_DirtResource.uasset" 471
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_GoldOre.uasset" 472
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_IronOre.uasset" 473
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_NecklaceEmerald.uasset" 474
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_NecklaceRuby.uasset" 475
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_NecklaceSapphire.uasset" 476
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_RingEmerald.uasset" 477
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_RingRuby.uasset" 478
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_RingSapphire.uasset" 479
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ScrapMetal.uasset" 480
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Sword.uasset" 481
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Treasure.uasset" 482
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Brush.uasset" 483
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Bucket.uasset" 484
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ConstructionHammer.uasset" 485
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Crucible.uasset" 486
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_FishingRod.uasset" 487
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Hammer.uasset" 488
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Lantern.uasset" 489
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_RelaRotTool.uasset" 490
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PowerMagnet.uasset" 491
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_MagStaff.uasset" 492
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_MiningHelmet.uasset" 493
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Mould.uasset" 494
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBrush.uasset" 495
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketParent.uasset" 496
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketBlack.uasset" 497
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketBlue.uasset" 498
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketGreen.uasset" 499
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketOrange.uasset" 500
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketPink.uasset" 501
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketRed.uasset" 502
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketWhite.uasset" 503
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Pickaxe.uasset" 504
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Saw.uasset" 505
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Shovel.uasset" 506
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Shovel2.uasset" 507
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Spanner.uasset" 508
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Vehicles/BP_Excavator.uasset" 509
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Vehicles/BP_PickupTruck.uasset" 510
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_bg_01_02.uasset" 511
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_frame_line.uasset" 512
-"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_title.uasset" 513
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/AudioOff.uasset" 514
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/AudioOn.uasset" 515
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/de1c91788be0d791135736995109272a.uasset" 516
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/discord-512.uasset" 517
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/patreon_logo.uasset" 518
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/paypal.uasset" 519
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_Wiki.uasset" 520
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/twitter-icon-basic-round-social-iconset-s-icons-0.uasset" 521
-"../../../../Modding Stuff/New folder/Unreal/Content/F7Menu/F7Menu.uasset" 522
-"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Tools/SM_MapMesh.uasset" 523
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Frame_M.uasset" 524
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Frame_N.uasset" 525
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Frame.uasset" 526
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_PillarFrame.uasset" 527
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_WorldMap.uasset" 528
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_WorldControl.uasset" 529
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_EscMenu.uasset" 530
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_LoadMods.uasset" 531
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/FOUBALL_LOGO_OUTLINE.uasset" 532
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/Logo-03__2_.uasset" 533
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/map-01.uasset" 534
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/playerIcon.uasset" 535
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_CrosshairEmpty.uasset" 536
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_CrosshairFull.uasset" 537
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_CrosshairHalf.uasset" 538
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_tooltip_item.uasset" 539
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_tooltip_sq.uasset" 540
-"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_tooltip_store.uasset" 541
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentConveyer_Child.uasset" 542
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_WaterfallTub.uasset" 543
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeCorner.uasset" 544
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_ParentPlant.uasset" 545
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantAfage.uasset" 546
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantEmberSpice.uasset" 547
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantFrostspine.uasset" 548
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantGluuin.uasset" 549
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantGreenCane.uasset" 550
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantHillLavender.uasset" 551
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantLunarleaf.uasset" 552
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantRegalRye.uasset" 553
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantStreedThorn.uasset" 554
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantWildBower.uasset" 555
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Boot.uasset" 556
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Fish.uasset" 557
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_GoldBar.uasset" 558
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_IronBar.uasset" 559
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ScrapBar.uasset" 560
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/BuildCosmetics/BP_Store6Pipe.uasset" 561
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/BuildCosmetics/BP_StoreIntakePipe.uasset" 562
-"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/BuildCosmetics/BP_StoreXPipe.uasset" 563
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 564
-"../../../Engine/Content/BasicShapes/Cone.uasset" 565
-"../../../Engine/Content/BasicShapes/Plane.uasset" 566
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 567
-"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 568
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 569
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 570
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 571
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 572
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 573
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 574
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 575
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 576
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 577
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 578
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 579
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 580
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 581
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 582
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 583
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 584
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 585
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 586
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 587
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 588
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 589
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 590
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 591
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 592
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 593
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 594
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 595
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 596
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 597
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 598
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 599
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 600
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 601
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 602
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 603
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 604
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 605
-"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 606
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 607
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 608
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 609
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 610
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 611
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 612
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 613
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 614
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 615
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 616
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 617
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 618
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 619
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 620
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 621
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 622
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 623
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 624
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 625
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 626
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 627
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 628
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 629
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 630
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 631
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 632
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 633
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 634
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 635
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 636
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 637
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 638
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 639
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 640
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 641
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 642
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 643
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 644
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 645
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 646
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 647
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 648
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 649
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 650
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 651
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 652
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 653
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 654
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 655
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 656
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 657
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 658
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 659
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 660
-"../../../Engine/Content/EngineResources/Black.uasset" 661
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 662
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 663
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 664
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 665
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 666
-"../../../Engine/Content/EngineSounds/Master.uasset" 667
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 668
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 669
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 670
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 671
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 672
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 673
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 674
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 675
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 676
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 677
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 678
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 679
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 680
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 681
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 682
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 683
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 684
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 685
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 686
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 687
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 688
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 689
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 690
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 691
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 692
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 693
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 694
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 695
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 696
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 697
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 698
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 699
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 700
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 701
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 702
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 703
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 704
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 705
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 706
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 707
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 708
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 709
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 710
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 711
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 712
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 713
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 714
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 715
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 716
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 717
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 718
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 719
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 720
-"../../../../Modding Stuff/New folder/Unreal/Content/L_GameWorld1.umap" 721
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 722
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 723
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 724
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 725
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 726
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 727
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 728
-"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 729
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 730
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 731
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 732
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 733
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 734
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_AssetPlatform.uasset" 735
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 736
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 737
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 738
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 739
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 740
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 741
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 742
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 743
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Advanced_Lighting.umap" 744
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 745
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 746
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 747
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 748
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 749
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 750
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 751
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 752
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 753
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 754
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_MacroVariation.uasset" 755
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 756
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 757
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 758
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 759
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 760
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Copper.uasset" 761
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Statue_M.uasset" 762
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Statue_N.uasset" 763
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 764
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Floor_400x400.uasset" 765
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 766
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Chair.uasset" 767
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Statue.uasset" 768
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Statue.uasset" 769
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_TableRound_M.uasset" 770
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_TableRound_N.uasset" 771
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_TableRound.uasset" 772
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_TableRound.uasset" 773
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Minimal_Default.umap" 774
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire01_Cue.uasset" 775
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 776
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 777
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 778
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Water_N.uasset" 779
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 780
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 781
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Fire.uasset" 782
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 783
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Smoke01_Cue.uasset" 784
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Smoke.uasset" 785
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 786
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 787
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Spark_Core.uasset" 788
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Spark.uasset" 789
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Sparks.uasset" 790
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 791
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Steam01_Cue.uasset" 792
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Steam_Lit.uasset" 793
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 794
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Lamp_M.uasset" 795
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Lamp_N.uasset" 796
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Lamp.uasset" 797
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 798
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 799
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 800
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 801
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 802
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 803
-"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 804
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 805
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 806
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 807
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 808
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 809
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 810
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 811
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 812
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 813
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 814
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 815
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 816
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 817
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 818
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 819
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 820
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 821
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 822
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 823
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 824
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 825
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 826
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 827
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 828
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 829
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 830
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 831
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 832
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 833
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Gradinet_01.uasset" 834
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 835
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 836
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 837
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 838
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 839
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 840
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 841
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 842
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 843
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 844
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 845
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 846
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 847
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 848
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 849
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 850
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 851
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 852
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 853
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 854
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 855
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 856
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ground_Grass.uasset" 857
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 858
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 859
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 860
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 861
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 862
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ground_Moss.uasset" 863
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 864
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 865
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Gold.uasset" 866
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 867
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Rust.uasset" 868
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 869
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 870
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Steel.uasset" 871
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 872
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 873
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 874
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 875
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 876
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 877
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 878
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 879
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Slate.uasset" 880
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 881
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 882
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 883
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 884
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 885
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 886
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 887
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 888
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 889
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 890
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 891
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Panel.uasset" 892
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Water_Lake.uasset" 893
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Water_M.uasset" 894
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Water_Ocean.uasset" 895
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 896
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 897
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 898
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 899
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 900
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 901
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 902
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 903
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Oak.uasset" 904
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 905
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 906
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Pine.uasset" 907
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 908
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 909
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 910
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_400x200.uasset" 911
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 912
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 913
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Collapse_Cue.uasset" 914
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 915
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 916
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 917
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 918
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/MaterialSphere.uasset" 919
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_CornerFrame.uasset" 920
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_DoorFrame.uasset" 921
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_GlassWindow.uasset" 922
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_PillarFrame300.uasset" 923
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_WindowFrame.uasset" 924
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Cube.uasset" 925
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 926
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Sphere.uasset" 927
-"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/StarterMap.umap" 928
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 929
-"../../../Engine/Content/Maps/Entry.umap" 930
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_BaseColor.uasset" 103
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_Emissive.uasset" 104
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_Normal.uasset" 105
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetStaff_SM_MagnetStaff_initialShadingGroup1_OcclusionRoughnessMetallic.uasset" 106
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_MagnetOnStick.uasset" 107
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Tools/SM_MagnetOnStick.uasset" 108
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Tools/SM_StoredMagnetOnStick.uasset" 109
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetGun_Fbx_Default_Material_BaseColor.uasset" 110
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetGun_Fbx_Default_Material_Normal.uasset" 111
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetGun_Fbx_Default_Material_OcclusionRoughnessMetallic.uasset" 112
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_MagnetStaff.uasset" 113
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Tools/SM_StoredMagnetStaff.uasset" 114
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Blacksmith_Hammer_Drop.uasset" 115
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Brick_Drop.uasset" 116
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Concurrency2.uasset" 117
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Conveyor_Belt_Drop.uasset" 118
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Cork_Drop.uasset" 119
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Denied_Drop_01.uasset" 120
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Denied_Grunt_03.uasset" 121
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Drop_Fish_3.uasset" 122
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Engine_hum_2.uasset" 123
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Fancy_Chair_Drop.uasset" 124
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Golden_Head_Statue_Drop.uasset" 125
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Grindstone.uasset" 126
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/HydroneerSoundMix.uasset" 127
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/HydroSoundEffectClass.uasset" 128
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Lantern_drop.uasset" 129
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Large_Wall_Drop.uasset" 130
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Light_Wooden_Post_Drop.uasset" 131
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Map_Drop.uasset" 132
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/MiningHelmet_Drop.uasset" 133
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Paintbrush_Drop.uasset" 134
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Saw_Drop.uasset" 135
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Screwdriver_Drop.uasset" 136
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/SOUNDTRACK.uasset" 137
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Spanner_Drop.uasset" 138
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Steam_Hiss_1.uasset" 139
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/S_DevSound.uasset" 140
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/S_ScrapYardFire.uasset" 141
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Toolbag_Drop.uasset" 142
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Vehicle_Recording__Orignal_Hum_and_Me.uasset" 143
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Water_Splash_1_13.uasset" 144
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Water_Splash_1_14.uasset" 145
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Water_Splash_1_15.uasset" 146
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Construction/Furnace_Fire_Loop.uasset" 147
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Construction/Harvester_Crushing.uasset" 148
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Construction/Harvester_Engine_Idle_1.uasset" 149
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/EnvLoops/SA_LargeEnv.uasset" 150
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/EnvLoops/SA_MediumEnv.uasset" 151
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Basic_Wall.uasset" 152
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Pillar_50x500.uasset" 153
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_400x300.uasset" 154
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_400x400.uasset" 155
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_500x500.uasset" 156
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 157
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 158
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Collapse01.uasset" 159
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Collapse02.uasset" 160
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Explosion01.uasset" 161
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Explosion02.uasset" 162
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire01.uasset" 163
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire_Sparks01.uasset" 164
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light01.uasset" 165
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light01_Cue.uasset" 166
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light02.uasset" 167
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Light02_Cue.uasset" 168
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Smoke01.uasset" 169
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Birds01.uasset" 170
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Music01.uasset" 171
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Wind05.uasset" 172
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Wind06.uasset" 173
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Steam01.uasset" 174
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Explosion_Cue.uasset" 175
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Burst_M.uasset" 176
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Burst.uasset" 177
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 178
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 179
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 180
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 181
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 182
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 183
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 184
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 185
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Explosion.uasset" 186
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 187
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 188
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 189
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Bush_D.uasset" 190
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Bush_N.uasset" 191
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Bush.uasset" 192
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Bush.uasset" 193
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Chair_M.uasset" 194
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Chair_N.uasset" 195
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Chair.uasset" 196
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Couch.uasset" 197
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Glass.uasset" 198
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Door_M.uasset" 199
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Door_N.uasset" 200
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Door.uasset" 201
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Door.uasset" 202
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 203
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 204
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 205
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 206
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 207
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 208
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_RockMesh_M.uasset" 209
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_RockMesh_N.uasset" 210
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Rock.uasset" 211
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Rock.uasset" 212
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Shelf_M.uasset" 213
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Shelf_N.uasset" 214
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Shelf.uasset" 215
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Shelf.uasset" 216
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Basic_Floor.uasset" 217
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Stairs.uasset" 218
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Cone.uasset" 219
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 220
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 221
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Pipe.uasset" 222
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 223
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 224
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Plane.uasset" 225
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Torus.uasset" 226
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Trim.uasset" 227
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 228
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 229
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 230
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Tube.uasset" 231
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 232
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 233
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 234
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildItem.uasset" 235
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildLighting.uasset" 236
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildStorage.uasset" 237
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedBuildWall.uasset" 238
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedCoins.uasset" 239
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedConveyer.uasset" 240
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedConveyerSplitter.uasset" 241
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedCrucible.uasset" 242
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedDirt.uasset" 243
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedLantern.uasset" 244
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedPlant.uasset" 245
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedRelic.uasset" 246
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedResource.uasset" 247
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedSmelterItem.uasset" 248
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedTool.uasset" 249
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedToolUses.uasset" 250
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedVehicle.uasset" 251
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedWaterDurabilityItem.uasset" 252
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Conveyer_lambert1_BaseColor.uasset" 253
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Conveyer_lambert1_Normal.uasset" 254
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Conveyer_lambert1_OcclusionRoughnessMetallic.uasset" 255
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Intake_lambert1_BaseColor.uasset" 256
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Intake_lambert1_Normal.uasset" 257
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Intake_lambert1_OcclusionRoughnessMetallic.uasset" 258
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetOnAStick_lambert1_BaseColor.uasset" 259
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_MagnetOnAStick_lambert1_OcclusionRoughnessMetallic.uasset" 260
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeCork_DefaultMaterial_BaseColor.uasset" 261
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeCork_DefaultMaterial_Normal.uasset" 262
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeCork_DefaultMaterial_OcclusionRoughnessMetallic.uasset" 263
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeFilter_lambert1_BaseColor.uasset" 264
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeFilter_lambert1_Normal.uasset" 265
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeFilter_lambert1_OcclusionRoughnessMetallic.uasset" 266
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeT_lambert1_BaseColor.uasset" 267
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeT_lambert1_Normal.uasset" 268
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeT_lambert1_OcclusionRoughnessMetallic.uasset" 269
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValueWheel_MAT_PolygonSciFiSpace_01_A_BaseColor.uasset" 270
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValueWheel_MAT_PolygonSciFiSpace_01_A_Normal.uasset" 271
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValueWheel_MAT_PolygonSciFiSpace_01_A_OcclusionRoughnessMetallic.uasset" 272
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValve_lambert1_BaseColor.uasset" 273
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValve_lambert1_Normal.uasset" 274
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PipeValve_lambert1_OcclusionRoughnessMetallic.uasset" 275
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PressureReader_DefaultMaterial_BaseColor.uasset" 276
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PressureReader_DefaultMaterial_Normal.uasset" 277
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_PressureReader_DefaultMaterial_OcclusionRoughnessMetallic.uasset" 278
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_01_Mat_Dungeon_02_BaseColor.uasset" 279
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_01_Mat_Dungeon_02_Normal.uasset" 280
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_01_Mat_Dungeon_02_OcclusionRoughnessMetallic.uasset" 281
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_02_Mat_Dungeon_03_BaseColor.uasset" 282
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_02_Mat_Dungeon_03_Normal.uasset" 283
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_Prop_Tech_Pipe_02_Mat_Dungeon_03_OcclusionRoughnessMetallic.uasset" 284
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_BaseColor.uasset" 285
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_BaseColor2.uasset" 286
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_BaseColor3.uasset" 287
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_Normal.uasset" 288
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_Normal2.uasset" 289
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_Normal3.uasset" 290
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_OcclusionRoughnessMetallic.uasset" 291
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_OcclusionRoughnessMetallic2.uasset" 292
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipeBent_lambert1_OcclusionRoughnessMetallic3.uasset" 293
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipe_M_RigPipe_BaseColor.uasset" 294
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipe_M_RigPipe_Normal.uasset" 295
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigPipe_M_RigPipe_OcclusionRoughnessMetallic.uasset" 296
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigRotorBottom_SM_PipeStraightSG3_BaseColor.uasset" 297
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigRotorBottom_SM_PipeStraightSG3_Normal.uasset" 298
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/SM_RigRotorBottom_SM_PipeStraightSG3_OcclusionRoughnessMetallic.uasset" 299
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/T_RigDirtPipeT.uasset" 300
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/T_RigDirtPipeTARM.uasset" 301
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/T_RigDirtPipeTNorm.uasset" 302
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/AlmendraSC-Bold.uasset" 303
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/AlmendraSC-Bold_Font.uasset" 304
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_19.uasset" 305
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Player/Button_Press.uasset" 306
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HComboStringBox.uasset" 307
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_obj_02.uasset" 308
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_strip_bg01.uasset" 309
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSlider.uasset" 310
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_Plank_08.uasset" 311
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTabButton.uasset" 312
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_Plank_07.uasset" 313
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTabButton2.uasset" 314
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_CoinAmount.uasset" 315
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_checkbox_bg.uasset" 316
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_checkbox_filled.uasset" 317
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HCheckBox.uasset" 318
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/BP_DayNightCycle.uasset" 319
+"../../../../Modding Stuff/New folder/Unreal/Content/Enums/E_ItemType.uasset" 320
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BP_ParentItem.uasset" 321
+"../../../../Modding Stuff/New folder/Unreal/Content/Enums/E_PlacementType.uasset" 322
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuild.uasset" 323
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentWaterItem.uasset" 324
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ParentResource.uasset" 325
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ParentTool.uasset" 326
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Pan.uasset" 327
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/BP_ParentStoreItem.uasset" 328
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_FunnelAngled.uasset" 329
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_FunnelAngled.uasset" 330
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/EquipmentToolStores/BP_StoreDeleteFunnel.uasset" 331
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Emerald.uasset" 332
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Ruby.uasset" 333
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Sapphire.uasset" 334
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_UncutEmerald.uasset" 335
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_UncutRuby.uasset" 336
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_UncutSapphire.uasset" 337
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/GrinderCase_noCollisionFBX_BaseColor.uasset" 338
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/GrinderCase_noCollisionFBX_Normal.uasset" 339
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/GrinderCase_noCollisionFBX_OcclusionRoughnessMetallic.uasset" 340
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_GemGrinder.uasset" 341
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/GrinderWheel_BaseColor.uasset" 342
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/GrinderWheel_Normal.uasset" 343
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/GrinderWheel_OcclusionRoughnessMetallic.uasset" 344
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_GrindingWheel.uasset" 345
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_GrinderCase.uasset" 346
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_GrinderWheel.uasset" 347
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GemGrind.uasset" 348
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/EquipmentToolStores/BP_StoreGemGrinder.uasset" 349
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Vehicles/BP_ParentVehicle.uasset" 350
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 351
+"../../../Engine/Content/BasicShapes/Cube.uasset" 352
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Anvil.uasset" 353
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GrindingWheel.uasset" 354
+"../../../../Modding Stuff/New folder/Unreal/Content/Structures/SavedItems/S_SavedLogicItem.uasset" 355
+"../../../../Modding Stuff/New folder/Unreal/Content/F7_Save.uasset" 356
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 357
+"../../../../Modding Stuff/New folder/Unreal/Content/BP_DevCam.uasset" 358
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HKeyBindSelector.uasset" 359
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_17.uasset" 360
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSmallButton1.uasset" 361
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_16.uasset" 362
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSmallButton2.uasset" 363
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_plank_18.uasset" 364
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HSmallButton3.uasset" 365
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_Plank_09.uasset" 366
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTabButton3.uasset" 367
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTextBlock.uasset" 368
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/HTextBox.uasset" 369
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildBed.uasset" 370
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildBookcase.uasset" 371
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildCactus.uasset" 372
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildCarpet.uasset" 373
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildFancyBed.uasset" 374
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildFancyTable.uasset" 375
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Tools/SM_MagnetStaff.uasset" 376
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildFloor.uasset" 377
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeDoorway.uasset" 378
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeFloor.uasset" 379
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeFoundation.uasset" 380
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildWall.uasset" 381
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWall1.uasset" 382
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWall2.uasset" 383
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWallTriangle.uasset" 384
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWallWindow1.uasset" 385
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildLargeWallWindow2.uasset" 386
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildPlanterbox.uasset" 387
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildPole.uasset" 388
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildRoofFlat.uasset" 389
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildRoofLong.uasset" 390
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildRoofShort.uasset" 391
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildStorage.uasset" 392
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSafe.uasset" 393
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildSeedBag.uasset" 394
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagAfage.uasset" 395
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagEmberSpice.uasset" 396
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagFrostspine.uasset" 397
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagGluuin.uasset" 398
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagGreenCane.uasset" 399
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagHillLavender.uasset" 400
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagLunarLeaf.uasset" 401
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagRegalRye.uasset" 402
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagStreedThorn.uasset" 403
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSeedBagWildBower.uasset" 404
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildSimpleChair.uasset" 405
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildStairs.uasset" 406
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildTable.uasset" 407
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildTinTriangle.uasset" 408
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildTinTriangleLong.uasset" 409
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildWall.uasset" 410
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentBuildLighting.uasset" 411
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildWallLantern.uasset" 412
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_BuildWindow.uasset" 413
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentConveyer.uasset" 414
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Conveyer.uasset" 415
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyerCentralizer.uasset" 416
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyerSplitter.uasset" 417
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyerVertical.uasset" 418
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyorBarrierSingle.uasset" 419
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyorBarrierVertical.uasset" 420
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyorLeft.uasset" 421
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyorRight.uasset" 422
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ConveyorShredder.uasset" 423
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_DAVID.uasset" 424
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_DeerTrophy.uasset" 425
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_DeleteTest.uasset" 426
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_FishingPot.uasset" 427
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_FishTrophy.uasset" 428
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Funnel.uasset" 429
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GoldenHeadStatue.uasset" 430
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentWaterItemDurability.uasset" 431
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GoliathDrill.uasset" 432
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GoliathDrillDev.uasset" 433
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Harvester.uasset" 434
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_IntakePipe.uasset" 435
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_IntakePipeDEV.uasset" 436
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_LargeConcreteFloor.uasset" 437
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_LightPost.uasset" 438
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Pallet.uasset" 439
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeBent.uasset" 440
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeCork.uasset" 441
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeFilter.uasset" 442
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PipeValve.uasset" 443
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Plinth.uasset" 444
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PressureGaugePipe.uasset" 445
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_PressureTankPipe.uasset" 446
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_RamDrill.uasset" 447
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Scales.uasset" 448
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_SmallFurnace.uasset" 449
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/BP_Water.uasset" 450
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_StraightPipe.uasset" 451
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchCorner1.uasset" 452
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchCorner2.uasset" 453
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchFlat.uasset" 454
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ThatchRamp.uasset" 455
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Throne.uasset" 456
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ToolRack.uasset" 457
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_TPipe.uasset" 458
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_WoodBlock.uasset" 459
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/BP_ProjectileWater.uasset" 460
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Black.uasset" 461
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Blue.uasset" 462
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Green.uasset" 463
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_Red.uasset" 464
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 465
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_ParentLogic.uasset" 466
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeT.uasset" 467
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeAND.uasset" 468
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeBent.uasset" 469
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeBend.uasset" 470
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/X_Pipe_2_Material_BaseColor.uasset" 471
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/X_Pipe_2_Material_Normal.uasset" 472
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/X_Pipe_2_Material_OcclusionRoughnessMetallic.uasset" 473
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_PipeX.uasset" 474
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeX.uasset" 475
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeCross.uasset" 476
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeCrossBridge.uasset" 477
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeStraight.uasset" 478
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeDelay.uasset" 479
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ParentToolUses.uasset" 480
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ToolBag.uasset" 481
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeFilter.uasset" 482
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeFilter.uasset" 483
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeGenerator.uasset" 484
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/M_Inlet.uasset" 485
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_Inlet.uasset" 486
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Construction/Water_Inlet.uasset" 487
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/EnvLoops/SA_SmallEnv.uasset" 488
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeInlet.uasset" 489
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeInverter.uasset" 490
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeNAND.uasset" 491
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeNOR.uasset" 492
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeOR.uasset" 493
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Crystal.uasset" 494
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ShardBar.uasset" 495
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_PipeT.uasset" 496
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/M_PressureBody.uasset" 497
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PressureBody.uasset" 498
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/M_PressureTankDoor.uasset" 499
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/M_PressureTankDoorWindow.uasset" 500
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PressureConverterDoor.uasset" 501
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipePressure.uasset" 502
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/M_PressureGaugePipe.uasset" 503
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Rigs/M_Needle.uasset" 504
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Rigs/SM_Needle.uasset" 505
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeReader.uasset" 506
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/6_Pipe_Redux_Material.uasset" 507
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/6_Pipe_Redux_Material__1_.uasset" 508
+"../../../../Modding Stuff/New folder/Unreal/Content/Textures/6_Pipe_Redux_Material__2_.uasset" 509
+"../../../../Modding Stuff/New folder/Unreal/Content/Materials/M_PipeSix.uasset" 510
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeSix.uasset" 511
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeSix.uasset" 512
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeSixBridge.uasset" 513
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeStraight.uasset" 514
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeT.uasset" 515
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/M_ValveWheel.uasset" 516
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_PipeValveBody.uasset" 517
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Build/SM_ValveWheel.uasset" 518
+"../../../../Modding Stuff/New folder/Unreal/Content/Sound/Construction/Valve_Turn.uasset" 519
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeValve.uasset" 520
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeXNOR.uasset" 521
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeXOR.uasset" 522
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicParent.uasset" 523
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicArrow.uasset" 524
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicCross.uasset" 525
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicGoblet.uasset" 526
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicSkull.uasset" 527
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicSpyglass.uasset" 528
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/RelicItems/BP_RelicSword.uasset" 529
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ParentCraftedResource.uasset" 530
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Axe.uasset" 531
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Coins.uasset" 532
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Dagger.uasset" 533
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_DirtResource.uasset" 534
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_GoldOre.uasset" 535
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_IronOre.uasset" 536
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_NecklaceEmerald.uasset" 537
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_NecklaceRuby.uasset" 538
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_NecklaceSapphire.uasset" 539
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_RingEmerald.uasset" 540
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_RingRuby.uasset" 541
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_RingSapphire.uasset" 542
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ScrapMetal.uasset" 543
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Sword.uasset" 544
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Treasure.uasset" 545
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Brush.uasset" 546
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Bucket.uasset" 547
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_ConstructionHammer.uasset" 548
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Crucible.uasset" 549
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_FishingRod.uasset" 550
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Hammer.uasset" 551
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Lantern.uasset" 552
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_MagnifyingGlass.uasset" 553
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_RelaRotTool.uasset" 554
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PowerMagnet.uasset" 555
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_MagStaff.uasset" 556
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_MiningHelmet.uasset" 557
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Mould.uasset" 558
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBrush.uasset" 559
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketParent.uasset" 560
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketBlack.uasset" 561
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketBlue.uasset" 562
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketGreen.uasset" 563
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketOrange.uasset" 564
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketPink.uasset" 565
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketRed.uasset" 566
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_PaintBucketWhite.uasset" 567
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Pickaxe.uasset" 568
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Saw.uasset" 569
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Screwdriver.uasset" 570
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Shovel.uasset" 571
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Shovel2.uasset" 572
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_Spanner.uasset" 573
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Vehicles/BP_Excavator.uasset" 574
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Vehicles/BP_PickupTruck.uasset" 575
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_SettingsMenu.uasset" 576
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_CloseSettings.uasset" 577
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_bg_01_02.uasset" 578
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_frame_line.uasset" 579
+"../../../../Modding Stuff/New folder/Unreal/Content/ExternalAssets/Wooden_UI/Textures/Tex_title.uasset" 580
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/de1c91788be0d791135736995109272a.uasset" 581
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/discord-512.uasset" 582
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/patreon_logo.uasset" 583
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/paypal.uasset" 584
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_Wiki.uasset" 585
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/twitter-icon-basic-round-social-iconset-s-icons-0.uasset" 586
+"../../../../Modding Stuff/New folder/Unreal/Content/F7Menu/F7Menu.uasset" 587
+"../../../../Modding Stuff/New folder/Unreal/Content/Meshes/UsedItems/Tools/SM_MapMesh.uasset" 588
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Frame_M.uasset" 589
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Frame_N.uasset" 590
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Frame.uasset" 591
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_PillarFrame.uasset" 592
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_WorldMap.uasset" 593
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_WorldControl.uasset" 594
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_EscMenu.uasset" 595
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_ForSale.uasset" 596
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_HUD.uasset" 597
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/UI_MainMenu.uasset" 598
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/AudioOff.uasset" 599
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/AudioOn.uasset" 600
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/FOUBALL_LOGO_OUTLINE.uasset" 601
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/Logo-03__2_.uasset" 602
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/map-01.uasset" 603
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/playerIcon.uasset" 604
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_CrosshairEmpty.uasset" 605
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_CrosshairFull.uasset" 606
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_CrosshairHalf.uasset" 607
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_tooltip_item.uasset" 608
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_tooltip_sq.uasset" 609
+"../../../../Modding Stuff/New folder/Unreal/Content/UI/Textures/T_tooltip_store.uasset" 610
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_GemCrusher.uasset" 611
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_ParentConveyer_Child.uasset" 612
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Smelter.uasset" 613
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_WaterfallTub.uasset" 614
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/BP_Workbench.uasset" 615
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/BuildItems/Logic/BP_PipeCorner.uasset" 616
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_ParentPlant.uasset" 617
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantAfage.uasset" 618
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantEmberSpice.uasset" 619
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantFrostspine.uasset" 620
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantGluuin.uasset" 621
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantGreenCane.uasset" 622
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantHillLavender.uasset" 623
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantLunarleaf.uasset" 624
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantRegalRye.uasset" 625
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantStreedThorn.uasset" 626
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/Plants/BP_PlantWildBower.uasset" 627
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_BattleAxe.uasset" 628
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Blunderbuss.uasset" 629
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Boot.uasset" 630
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Bracelet.uasset" 631
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Cage.uasset" 632
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Candle.uasset" 633
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_CloutiumBar.uasset" 634
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_CloutiumOre.uasset" 635
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Fish.uasset" 636
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_GoldBar.uasset" 637
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_IronBar.uasset" 638
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_ScrapBar.uasset" 639
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Shield.uasset" 640
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ResourceItems/BP_Teapot.uasset" 641
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/BP_WorldMap.uasset" 642
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BlueprintParent.uasset" 643
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Battleaxe.uasset" 644
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Blunderbuss.uasset" 645
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Cage.uasset" 646
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Candle.uasset" 647
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_CornerPipe.uasset" 648
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Shield.uasset" 649
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Spanner.uasset" 650
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_StraightPipe.uasset" 651
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Teapot.uasset" 652
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_Toolbag.uasset" 653
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/Items/ToolItems/Blueprints/BP_BP_TPipe.uasset" 654
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/BuildCosmetics/BP_StoreIntakePipe.uasset" 655
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/EquipmentToolStores/BP_Store6Pipe.uasset" 656
+"../../../../Modding Stuff/New folder/Unreal/Content/WorldObjects/StoreItems/EquipmentToolStores/BP_StoreXPipe.uasset" 657
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 658
+"../../../Engine/Content/BasicShapes/Cone.uasset" 659
+"../../../Engine/Content/BasicShapes/Plane.uasset" 660
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 661
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 662
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 663
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 664
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 665
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 666
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 667
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 668
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 669
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 670
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 671
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 672
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 673
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 674
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 675
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 676
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 677
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 678
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 679
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 680
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 681
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 682
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 683
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 684
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 685
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 686
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 687
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 688
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 689
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 690
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 691
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 692
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 693
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 694
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 695
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 696
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 697
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 698
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 699
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 700
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 701
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 702
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 703
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 704
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 705
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 706
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 707
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 708
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 709
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 710
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 711
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 712
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 713
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 714
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 715
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 716
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 717
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 718
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 719
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 720
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 721
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 722
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 723
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 724
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 725
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 726
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 727
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 728
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 729
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 730
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 731
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 732
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 733
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 734
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 735
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 736
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 737
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 738
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 739
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 740
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 741
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 742
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 743
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 744
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 745
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 746
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 747
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 748
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 749
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 750
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 751
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 752
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 753
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 754
+"../../../Engine/Content/EngineResources/Black.uasset" 755
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 756
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 757
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 758
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 759
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 760
+"../../../Engine/Content/EngineSounds/Master.uasset" 761
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 762
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 763
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 764
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 765
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 766
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 767
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 768
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 769
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 770
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 771
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 772
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 773
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 774
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 775
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 776
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 777
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 778
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 779
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 780
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 781
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 782
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 783
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 784
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 785
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 786
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 787
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 788
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 789
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 790
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 791
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 792
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 793
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 794
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 795
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 796
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 797
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 798
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 799
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 800
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 801
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 802
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 803
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 804
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 805
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 806
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 807
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 808
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 809
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 810
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 811
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 812
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 813
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 814
+"../../../../Modding Stuff/New folder/Unreal/Content/L_GameWorld1.umap" 815
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 816
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 817
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 818
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 819
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 820
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 821
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 822
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 823
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 824
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 825
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 826
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 827
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 828
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_AssetPlatform.uasset" 829
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 830
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 831
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 832
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 833
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 834
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 835
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 836
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 837
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Advanced_Lighting.umap" 838
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 839
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 840
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 841
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 842
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 843
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 844
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 845
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 846
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 847
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 848
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_MacroVariation.uasset" 849
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 850
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 851
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 852
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 853
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 854
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Copper.uasset" 855
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Statue_M.uasset" 856
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Statue_N.uasset" 857
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 858
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Floor_400x400.uasset" 859
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 860
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Chair.uasset" 861
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Statue.uasset" 862
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Statue.uasset" 863
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_TableRound_M.uasset" 864
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_TableRound_N.uasset" 865
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_TableRound.uasset" 866
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_TableRound.uasset" 867
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/Minimal_Default.umap" 868
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire01_Cue.uasset" 869
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 870
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 871
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 872
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Water_N.uasset" 873
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 874
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 875
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Fire.uasset" 876
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 877
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Smoke01_Cue.uasset" 878
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Smoke.uasset" 879
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 880
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 881
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Spark_Core.uasset" 882
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Spark.uasset" 883
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Sparks.uasset" 884
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 885
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Steam01_Cue.uasset" 886
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Steam_Lit.uasset" 887
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 888
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Lamp_M.uasset" 889
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Lamp_N.uasset" 890
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/Materials/M_Lamp.uasset" 891
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 892
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 893
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 894
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 895
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 896
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 897
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 898
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 899
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 900
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 901
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 902
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 903
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 904
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 905
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 906
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 907
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 908
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 909
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 910
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 911
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 912
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 913
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 914
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 915
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 916
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 917
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 918
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 919
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 920
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 921
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 922
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 923
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 924
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 925
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 926
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 927
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Gradinet_01.uasset" 928
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 929
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 930
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 931
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 932
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 933
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 934
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 935
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 936
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 937
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 938
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 939
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 940
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 941
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 942
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 943
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 944
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 945
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 946
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 947
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 948
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 949
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 950
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ground_Grass.uasset" 951
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 952
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 953
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 954
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 955
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 956
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Ground_Moss.uasset" 957
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 958
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 959
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Gold.uasset" 960
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 961
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Rust.uasset" 962
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 963
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 964
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Metal_Steel.uasset" 965
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 966
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 967
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 968
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 969
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 970
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 971
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 972
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 973
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Rock_Slate.uasset" 974
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 975
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 976
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 977
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 978
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 979
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 980
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 981
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 982
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 983
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 984
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 985
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Tech_Panel.uasset" 986
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Water_Lake.uasset" 987
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Water_M.uasset" 988
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Water_Ocean.uasset" 989
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 990
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 991
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 992
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 993
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 994
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 995
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 996
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 997
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Oak.uasset" 998
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 999
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 1000
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Pine.uasset" 1001
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 1002
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 1003
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 1004
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_400x200.uasset" 1005
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 1006
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 1007
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Collapse_Cue.uasset" 1008
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 1009
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 1010
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 1011
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 1012
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/MaterialSphere.uasset" 1013
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_CornerFrame.uasset" 1014
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_DoorFrame.uasset" 1015
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_GlassWindow.uasset" 1016
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_PillarFrame300.uasset" 1017
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Props/SM_WindowFrame.uasset" 1018
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Cube.uasset" 1019
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 1020
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Shapes/Shape_Sphere.uasset" 1021
+"../../../../Modding Stuff/New folder/Unreal/Content/StarterContent/Maps/StarterMap.umap" 1022
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1023
+"../../../Engine/Content/Maps/Entry.umap" 1024
