@@ -15,7 +15,7 @@
 | [No Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-NoDirtClumping_P.pak) | Dirt will never clump together while on conveyor belts. | Navisgda |
 | [Slower Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-SlowerDirtCombine_P.pak) | For people who still want the dirt to clump up but hate how fast it does so. | Heilos |
 | [Vehicle Torque Improvement](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-VehicleTorque_P.pak)  | Doubles the torque and reverse speed of the pickup truck - **NOT COMPATIBLE WITH Double Truck Fuel Capacity** | Heilos|
-| [Eternal Drills](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EternalDrills_P.pak)  | Infinite durability machines, better harvester, and Goliaths don't remove dirt - **ALSO CONTAINS CHANGES FROM Better Harvester V2.0** | Heilos & Rhino |
+| [Eternal Drills](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EternalDrills_P.pak)  | Infinite durability machines, better harvester, and Goliaths don't remove dirt - **ALSO CONTAINS CHANGES FROM BetterHarvester** | Heilos & Rhino |
 | [Longer Day/Night Cycle](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/DayNightExtended_P.pak)  | Extends the length of the playable daytime | Navsigda |
 | [Double Truck Fuel Capacity](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/PickupTruckFuel_P.pak)  | Greatly increases the fuel capacity of the pickup truck - **NOT COMPATIBLE WITH Vehicle Torque Improvement** | Navsigda |
 
