@@ -12,5 +12,19 @@
 				"Engine"
 			]
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "DiscordRichPresence",
+			"Enabled": false
+		},
+		{
+			"Name": "TestPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "Voxel",
+			"Enabled": false
+		}
 	]
 }
