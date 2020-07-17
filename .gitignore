@@ -3,6 +3,7 @@ Unreal/.vs/*
 Unreal/Binaries/*
 Unreal/Intermediate/*
 Unreal/Saved/*
+Unreal/Plugins/*
 Unreal/Hydroneer.sln
 Unreal/Content/StarterContent/*
 *outerror.txt
