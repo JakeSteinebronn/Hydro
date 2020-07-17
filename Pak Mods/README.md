@@ -6,8 +6,7 @@
 | ------------- | ------------- | ------------- |
 | [Autumn Overhaul](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-AutumnOverhaul_P.pak)  | New textures and colors for an autumn/fall themed mining experience | Rhino |
 | [Better Crucible and Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterCrucibleFunnel_P.pak)  | Remodeled the funnel and crucible so objects pass through/into them easier | Carnaxus |
-| [Better Harvester V2.0](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterHarvesterV2_P.pak)  | Improves the harvester so it can harvest any size dirt without clogs - **NOT COMPATIBLE WITH The All-In-One** | Rhino |
-| [Conveyor Bumpers](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-ConveyorBumpers_P.pak)  | Adds bumpers/walls to conveyors so they sit flush with windows and panels | Rhino |
+| [Better Harvester](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterHarvester_P.pak)  | Improves the harvester so it can harvest any size dirt without clogs | Rhino |
 | [Deleting Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-DeletingFunnel_P.pak) | Just what it says on the tin, this funnel deletes whatever you drop into it. | Heilos |
 | [Eternal Crystals](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EternalCrystals_P.pak)  | Makes crystals last forever inside pressure chambers | Heilos |
 | [Everything Free](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EverythingFree_P.pak)  | Makes all buyable items free.  **The game still requires one coin in each bucket** | Heilos |
