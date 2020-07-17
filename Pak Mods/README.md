@@ -5,6 +5,7 @@
 | Mod File  | Description | Creator |
 | ------------- | ------------- | ------------- |
 | [Autumn Overhaul](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-AutumnOverhaul_P.pak)  | New textures and colors for an autumn/fall themed mining experience | Rhino |
+| [Conveyor Grinder](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-ConveyorGrinder_P.pak)  | Automatic gem grinder that snaps onto conveyor belts | Heilos, Nate, Rhino |
 | [Better Crucible and Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterCrucibleFunnel_P.pak)  | Remodeled the funnel and crucible so objects pass through/into them easier | Carnaxus |
 | [Better Harvester](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterHarvester_P.pak)  | Improves the harvester so it can harvest any size dirt without clogs | Rhino |
 | [Deleting Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-DeletingFunnel_P.pak) | Just what it says on the tin, this funnel deletes whatever you drop into it. | Heilos |
