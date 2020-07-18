@@ -5,9 +5,9 @@
 | Mod File  | Description | Creator |
 | ------------- | ------------- | ------------- |
 | [Autumn Overhaul](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-AutumnOverhaul_P.pak)  | New textures and colors for an autumn/fall themed mining experience | Rhino |
+| [Conveyor Grinder](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-ConveyorGrinder_P.pak)  | Automatic gem grinder that snaps onto conveyor belts | Heilos, Nate, Rhino |
 | [Better Crucible and Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterCrucibleFunnel_P.pak)  | Remodeled the funnel and crucible so objects pass through/into them easier | Carnaxus |
-| [Better Harvester V2.0](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterHarvesterV2_P.pak)  | Improves the harvester so it can harvest any size dirt without clogs - **NOT COMPATIBLE WITH The All-In-One** | Rhino |
-| [Conveyor Bumpers](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-ConveyorBumpers_P.pak)  | Adds bumpers/walls to conveyors so they sit flush with windows and panels | Rhino |
+| [Better Harvester](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-BetterHarvester_P.pak)  | Improves the harvester so it can harvest any size dirt without clogs | Rhino |
 | [Deleting Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-DeletingFunnel_P.pak) | Just what it says on the tin, this funnel deletes whatever you drop into it. | Heilos |
 | [Eternal Crystals](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EternalCrystals_P.pak)  | Makes crystals last forever inside pressure chambers | Heilos |
 | [Everything Free](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EverythingFree_P.pak)  | Makes all buyable items free.  **The game still requires one coin in each bucket** | Heilos |
@@ -16,7 +16,7 @@
 | [No Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-NoDirtClumping_P.pak) | Dirt will never clump together while on conveyor belts. | Navisgda |
 | [Slower Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-SlowerDirtCombine_P.pak) | For people who still want the dirt to clump up but hate how fast it does so. | Heilos |
 | [Vehicle Torque Improvement](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-VehicleTorque_P.pak)  | Doubles the torque and reverse speed of the pickup truck - **NOT COMPATIBLE WITH Double Truck Fuel Capacity** | Heilos|
-| [Eternal Drills](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EternalDrills_P.pak)  | Infinite durability machines, better harvester, and Goliaths don't remove dirt - **ALSO CONTAINS CHANGES FROM Better Harvester V2.0** | Heilos & Rhino |
+| [Eternal Drills](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EternalDrills_P.pak)  | Infinite durability machines, better harvester, and Goliaths don't remove dirt - **ALSO CONTAINS CHANGES FROM BetterHarvester** | Heilos & Rhino |
 | [Longer Day/Night Cycle](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/DayNightExtended_P.pak)  | Extends the length of the playable daytime | Navsigda |
 | [Double Truck Fuel Capacity](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/PickupTruckFuel_P.pak)  | Greatly increases the fuel capacity of the pickup truck - **NOT COMPATIBLE WITH Vehicle Torque Improvement** | Navsigda |
 
