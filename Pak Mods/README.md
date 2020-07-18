@@ -11,6 +11,7 @@
 | [Eternal Crystals](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EternalCrystals_P.pak)  | Makes crystals last forever inside pressure chambers | Heilos |
 | [Everything Free](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-EverythingFree_P.pak)  | Makes all buyable items free.  **The game still requires one coin in each bucket** | Heilos |
 | [F7 Menu](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-F7Menu_P.pak)  | Removes the World Map item from the game and enables you to open a secret menu by pressing F7 or the Map by pressing M | Heilos |
+| [Magnified Magnet](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-MagnifiedMagnet_P.pak)  | Makes the magnet staff smaller | Heilos |
 | [No Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-NoDirtClumping_P.pak) | Dirt will never clump together while on conveyor belts. | Navisgda |
 | [Vehicle Torque Improvement](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-VehicleTorque_P.pak)  | Doubles the torque and reverse speed of the pickup truck - **NOT COMPATIBLE WITH Double Truck Fuel Capacity** | Heilos|
 | [NoDurability](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/001-NoDurability_P.pak)  | Infinite durability machines - **Also includes changes from BetterHarvester** | Heilos & Rhino |
