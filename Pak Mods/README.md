@@ -15,7 +15,6 @@
 | [No Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-NoDirtClumping_P.pak) | Dirt will never clump together while on conveyor belts. | Navisgda |
 | [Vehicle Torque Improvement](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-VehicleTorque_P.pak)  | Doubles the torque and reverse speed of the pickup truck - **NOT COMPATIBLE WITH Double Truck Fuel Capacity** | Heilos|
 | [NoDurability](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/001-NoDurability_P.pak)  | Infinite durability machines - **Also includes changes from BetterHarvester** | Heilos & Rhino |
-| [PickupTruckFuel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/PickupTruckFuel_P.pak)  | Greatly increases the fuel capacity of the pickup truck - **NOT COMPATIBLE WITH Vehicle Torque Improvement** | Navsigda |
 
 # F7 Menu  
 As it stands right now, the mod requires a World Map item to exist somewhere in the world.  You don't have to keep it with you, but you have to own one.  Since you start out with one, this shouldn't be an issue.  
