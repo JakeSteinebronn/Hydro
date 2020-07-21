@@ -5,6 +5,7 @@
 ## Team Hydronix Mods - These all require the Hydronix Core to be added
 
 | Mod File  | Description | Creator |
+| ------------- | ------------- | ------------- |
 | [Hydronix Core](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-Hydronix_P.pak)  | Adds a new shop to the game world that contains any Hydronix mods currently installed | Heilos |
 | [Conveyor Grinder](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-ConveyorGrinder_P.pak)  | Automatic gem grinder that snaps onto conveyor belts | Heilos, Nate, Rhino |
 | [Deletion Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-DeletionFunnel_P.pak) | Just what it says on the tin, this funnel deletes whatever you drop into it. | Heilos |
