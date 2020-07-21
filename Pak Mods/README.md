@@ -2,7 +2,8 @@
  - Pak files for the game go into - %LocalAppData%\Mining\Saved\Paks
  - Hit Win + R and copy paste - %LocalAppData%\Mining\Saved then create the Paks folder in that directory.
 
-##Team Hydronix Mods - These all require the Hydronix Core to be added
+## Team Hydronix Mods - These all require the Hydronix Core to be added
+
 | Mod File  | Description | Creator |
 | [Hydronix Core](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-Hydronix_P.pak)  | Adds a new shop to the game world that contains any Hydronix mods currently installed | Heilos |
 | [Conveyor Grinder](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-ConveyorGrinder_P.pak)  | Automatic gem grinder that snaps onto conveyor belts | Heilos, Nate, Rhino |
@@ -10,7 +11,7 @@
 | [F7 Menu](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-F7Menu_P.pak)  | Replaces the escape menu with a brand new menu full of options | Heilos |
 | [Table Saw](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-TableSaw_P.pak)  | A table saw that enables you to cut bars to specific sizes | meaf, Heilos |
 
-##Standalone mods
+## Standalone mods
 
 | Mod File  | Description | Creator |
 | ------------- | ------------- | ------------- |
