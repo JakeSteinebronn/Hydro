@@ -24,7 +24,7 @@
 | [No Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-NoDirtClumping_P.pak) | Dirt will never clump together while on conveyor belts. | Navisgda |
 | [Vehicle Torque Improvement](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-DoubleVehicleTorque_P.pak)  | Doubles the torque and reverse speed of the pickup truck | Heilos|
 | [NoDurability](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/001-NoDurability_P.pak)  | Infinite durability machines - **Also includes changes from BetterHarvester** | Rhino, Heilos |
-| [No Dirt Goliath](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/002-NoDirtGoliath_P.pak)  | Stops the Goliath drill using up dirt. Must have a higher index number than NoDurability if both are used | Heilos & Rhino |
+| [No Dirt Goliath](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/002-NoDirtGoliath_P.pak)  | Stops the Goliath drill using up dirt. Must have a higher index number than NoDurability if both are used | Heilos |
 
 # F7 Menu  
 As it stands right now, the mod requires a World Map item to exist somewhere in the world.  You don't have to keep it with you, but you have to own one.  Since you start out with one, this shouldn't be an issue.  
