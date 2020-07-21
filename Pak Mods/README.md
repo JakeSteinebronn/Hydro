@@ -7,7 +7,7 @@
 | Mod File  | Description | Creator |
 | ------------- | ------------- | ------------- |
 | [Hydronix Core](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-Hydronix_P.pak)  | Adds a new shop to the game world that contains any Hydronix mods currently installed | Heilos |
-| [Conveyor Grinder](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-ConveyorGrinder_P.pak)  | Automatic gem grinder that snaps onto conveyor belts | Heilos, Nate, Rhino |
+| [Conveyor Grinder](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-ConveyorGrinder_P.pak)  | Automatic gem grinder that snaps onto conveyor belts | Nate, Rhino, Heilos |
 | [Deletion Funnel](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-DeletionFunnel_P.pak) | Just what it says on the tin, this funnel deletes whatever you drop into it. | Heilos |
 | [F7 Menu](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-F7Menu_P.pak)  | Replaces the escape menu with a brand new menu full of options | Heilos |
 | [Table Saw](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-Core-TableSaw_P.pak)  | A table saw that enables you to cut bars to specific sizes | meaf, Heilos |
@@ -23,7 +23,7 @@
 | [Magnified Magnets](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-MagnifiedMagnets_P.pak)  | Makes the magnet staff smaller | Heilos |
 | [No Dirt Clumping](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-NoDirtClumping_P.pak) | Dirt will never clump together while on conveyor belts. | Navisgda |
 | [Vehicle Torque Improvement](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/000-DoubleVehicleTorque_P.pak)  | Doubles the torque and reverse speed of the pickup truck | Heilos|
-| [NoDurability](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/001-NoDurability_P.pak)  | Infinite durability machines - **Also includes changes from BetterHarvester** | Heilos & Rhino |
+| [NoDurability](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/001-NoDurability_P.pak)  | Infinite durability machines - **Also includes changes from BetterHarvester** | Rhino, Heilos |
 | [No Dirt Goliath](https://github.com/kaiheilos/Hydro/raw/master/Pak%20Mods/002-NoDirtGoliath_P.pak)  | Stops the Goliath drill using up dirt. Must have a higher index number than NoDurability if both are used | Heilos & Rhino |
 
 # F7 Menu  
